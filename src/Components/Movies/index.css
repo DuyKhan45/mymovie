@@ -1,0 +1,21 @@
+.movies-nav {
+    margin-top: 120px;
+}
+.movie-search {
+    display: flex;
+    position: relative;
+    justify-content: end;
+    margin-bottom: 10px;
+}
+.icon-search {
+    color: black;
+    font-size: 17px;
+    position: absolute;
+    align-items: center;
+    line-height: 24px;
+    padding: 5px;
+}
+
+.movie-search input{
+    border-radius: 5px;
+}

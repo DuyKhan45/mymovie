@@ -1,0 +1,56 @@
+.footer {
+    /* background-color: rgba(114, 243, 153, 0.7); */
+    padding-top: 40px;
+    background-image: linear-gradient(180deg, rgba(16,16,15,0.9), rgba(15,15,16,0.9)), url(../../Asetss/img/background.4791eb57.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.footer-logo {
+    font-size: 32px;
+    color: white;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+.footer-logo:hover {
+    color: #FF0000;
+}
+.container-logo{
+    padding: 12px;
+    text-align: left;
+}
+.footer-icon-item {
+    font-size: 22px;
+    color: white;
+    padding: 12px;
+}
+.footer-icon-item:hover {
+    color: #FF0000;
+}
+.title-footer {
+    font-size: 20px;
+    color: white;
+}
+.title-footer:hover {
+    color: #FF0000;
+}
+.list-about {
+    list-style: none;
+    padding-left: 10px;
+}
+.list-about a li {
+    font-size: 16px;
+    color: white;
+}
+
+.list-about a:hover{
+    text-decoration: none;
+}
+.list-about a:hover li {
+    color: #FF0000;
+}
+.container-logo a:hover {
+    text-decoration: none;
+}
