@@ -1,4 +1,4 @@
-import React, { useEffect, useLayoutEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import apiConfig from "../../configAPI/apiConfig";
 import ApiTMDB from "../../configAPI/apiTMDB"
 import Movie from "../../main/MovieList/Movie"
@@ -19,7 +19,6 @@ const Movies = () => {
             ${apiConfig.baseURL}search/movie?api_key=${process.env.REACT_APP_TMDB_KEY}&language=en-US&page=1&include_adult=false&query=${e.target.value}`)
             .then(res => res.json())
             .then(data => {
-                console.log("1223",data)
                 if(!data.errors) {
                     setDataSearch(data.results)
                 } else {

@@ -12,13 +12,13 @@ export const Footer = () => {
                         <a href="/">
                             <h3 className="footer-logo" >MyMovie</h3>
                         </a>
-                        <a href="https://www.facebook.com/khan.nguyen.184881/" target="_blank">
+                        <a href="https://www.facebook.com/khan.nguyen.184881/" target="_blank" rel="noreferrer">
                             <i className="footer-icon-item ti-facebook"></i>
                         </a>
-                        <a href="https://github.com/DuyKhan45" target="_blank">
+                        <a href="https://github.com/DuyKhan45" target="_blank" rel="noreferrer">
                             <i className="footer-icon-item ti-github"></i>
                         </a>
-                        <a href="https://www.youtube.com/channel/UCy4Sq1uKFw1se-9ZDYAKaLw" target="_blank">
+                        <a href="https://www.youtube.com/channel/UCy4Sq1uKFw1se-9ZDYAKaLw" target="_blank" rel="noreferrer">
                             <i className="footer-icon-item ti-youtube"></i>
                         </a>
                     </div>

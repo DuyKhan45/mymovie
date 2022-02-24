@@ -28,6 +28,8 @@ const PlayVideo = () => {
     }
 
     useEffect(() => {
+        handleSrc()
+
         fetch(`${apiConfig.baseURL}${category}/${id}?api_key=${process.env.REACT_APP_TMDB_KEY}&language=en-US`)
             .then(res => res.json())
             .then(data => {
@@ -37,7 +39,6 @@ const PlayVideo = () => {
                     setPlayMovie([])
                 }
             })
-
     }, [])
     useEffect(() => {
         fetch(`${apiConfig.baseURL}${category}/${id}/similar?api_key=${process.env.REACT_APP_TMDB_KEY}&language=en-US&page=1`)
@@ -52,9 +53,7 @@ const PlayVideo = () => {
             })
     },[])
 
-    useEffect(() => {
-        handleSrc()
-    }, [])
+    
 
     return (
         <div 
